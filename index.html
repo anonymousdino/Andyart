@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Andyart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="artstyle.html">ARTSTYLE</a></li>
+                    <li><a href="artworks.html">ARTWORKS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Welcome to my Art Gallery</h1>
+        <p>This Website is all about arts and crafts i made when i'm lonely, crying, bored, happy, inlove and more.<br>Drawing gives a relaxation, it provides a escape from stresses of daily life. Drawing has theraputhic benefits and <br>can be used as a form of art theraphy to cope with operational challenges, trauma, or mental health issues. </table></p>
+        <a href="" class="hero-btn">visit me to know</a>
+    </div>
+</section>
+<!-------course-------->
+
+<section class="course">
+    <h1>Art styles I do</h1>
+    <p>An art style is an overall expressive technique that is recognizable as belonging to a period of art history, art movement or artist. <br>This can include technical elements such as use of line and expressive elements such as composition, subject matter, narrative, abstraction and mood.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Soulful Art</h3>
+            <p>Soulful art reflects the artist's personality, identity, and vision. It does not follow trends or conventions, but rather creates its own unique style. Meaning: Soulful art is not random or meaningless. It has a purpose and a message. Soulful art communicates something important to the artist and the viewer.</p>
+        </div>
+        <div class="course-col">
+            <h3>Line Art</h3>
+            <p>Created with pencil, ink, or pixels, line art describes monochromatic illustrations consisting of varying weights or thicknesses of lines. You can make line art with any one color on a solid background, although it's typically done in black and white.</p>
+        </div>
+        <div class="course-col">
+            <h3>Papercraft</h3>
+            <p>Paper craft is a collection of crafts using paper or card as the primary artistic medium for the creation of two or three-dimensional objects. Paper and card stock lend themselves to a wide range of techniques and can be folded, curved, bent, cut, glued, molded, stitched, or layered. Papermaking by hand is also a paper craft.</p>
+        </div>
+    </div>
+
+</section>
+<!------campus----->
+<section class="campus">
+    <h1>These are a one illustrations of each art style.</h1>
+    <P></P>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/pahinga2.jpg" alt="">
+            <div class="layer">
+                <h3>Soulful</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/kien.jpg" alt="">
+            <div class="layer">
+                <h3>Line art</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/papercraft.jpg" alt="">
+            <div class="layer">
+                <h3>Papercraft</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------testimonials-->
+<section class="testimonials">
+    <h>testimonials</h>
+    <p>HAHHAHAHHAAHAHH</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/kien.jpg" alt="">
+            <div>
+                <p>HAHAHAHAHH</p>
+                <h3>andy</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/louis.jpg" alt="">
+            <div>
+                <p>HAHAHAHAHH</p>
+                <h3>andi</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---call to action-->
+<section class="cta">
+    <h1></h1>
+    <a href="" class="hero-btn">contact us</a>
+</section>
+<!-------footer-->
+<section class="footer">
+    <h4>About me</h4>
+    <p>SOCIAL MEDIAS</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> :by andy</p>
+
+</section>
+<!---javascript-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html>

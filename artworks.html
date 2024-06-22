@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Andyart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="artstyle.html">ARTSTYLE</a></li>
+                    <li><a href="artworks.html">ARTWORKS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>artworks</h1>
+    </section>
+<!-------blog page content-->
+
+<section class="facilities">
+    <h1>Soulful D dessin</h1>
+    <p></p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/pahinga.jpg" alt="">
+            <h3>Pahinga</h3>
+            <p>"Pahinga" stands as a powerful reminder that genuine connections and love can serve as a sanctuary, offering comfort and joy amid life's complexities. It beautifully captures the essence of finding solace and peace in lasting relationships.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/kamatayan.jpg" alt="">
+            <h3>Kamatayan</h3>
+            <p>This art is my interpretation of "till death do us part" which signifies a lasting commitment and enduring bond, symbolizing a promise to remain devoted through life's challenges, demonstrating love and loyalty until the end.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/this is me trying.jpg" alt="">
+            <h3>this is me trying</h3>
+            <p></p>
+        </div>
+    </div>
+    <h1>my drawings</h1>
+        <p>HAHHAHAHHAAHAHH</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/kien.jpg" alt="">
+                <h3>kien</h3>
+                <p>HAHAHAH</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/louis.jpg" alt="">
+                <h3>louis</h3>
+                <p>HAHAHAH</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/maroon.jpg" alt="">
+                <h3>maroon</h3>
+                <p>HAHAHAH</p>
+            </div>
+    </div>
+    <div class="comment-box">
+        <h3>leave a comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter name">
+            <input type="email" placeholder="Enter email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn pink-btn">Post Comment</button>
+        </form>
+    </div>
+</section>
+
+<!-------footer-->
+<section class="footer">
+    <h4>About me</h4>
+    <p>HAHHAHAHAHAHAH</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> :by andy</p>
+
+</section>
+<!---javascript-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html>

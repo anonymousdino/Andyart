@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Andyart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="artstyle.html">ARTSTYLE</a></li>
+                    <li><a href="artworks.html">ARTWORKS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About me</h1>
+    </section>
+<!---about me-->
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1>Bermundo, John Andre M.</h1>
+            <p>I am CPG student at university of makati. I'm 16yrs old and I love drawing, making crafts, karaoke, cats, museums, and musics. I hate coding. I live in Makati now it's taguig. I used to have 10 cats but 5 died so i only have 5 cats. I like people who listens to music specilly taylor, CAS, rex orange county, OPM and more in short i like Romar. I have a lot of crushes but my ultimate crush is kien idk why but i like him very much. ENJOY 𐙚 ‧₊˚ ⋅</p>
+            <a href="" class="hero-btn pink-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+<!-------footer-->
+<section class="footer">
+    <h4>About me</h4>
+    <p>GAY WHO LIKE STRAIGHT MEN THAT'S WHY HE IS ALWAYS IN PAIN</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> :by andy</p>
+
+</section>
+<!---javascript-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html>
