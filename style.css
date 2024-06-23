@@ -210,7 +210,7 @@ h3{
 }
 /*-----testimonials-----*/
 .testimonials{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
@@ -258,7 +258,7 @@ h3{
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
-    margin-top: -1%;
+    margin-top: -5%;
 }
 .cta h1{
     color: #fff;
